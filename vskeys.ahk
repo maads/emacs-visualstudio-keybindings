@@ -12,3 +12,4 @@ return
 ^p::Send {Up}
 ^f::Send {Right}
 ^b::Send {Left}
+#IfWinActive
