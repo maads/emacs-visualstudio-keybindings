@@ -1,4 +1,3 @@
-<!-- Get emacs addon for VS2010 here http://visualstudiogallery.msdn.microsoft.com/09dc58c4-6f47-413a-9176-742be7463f92/ -->
 <UserSettings>
 	<ApplicationIdentity version="10.0"/>
 	<ToolsOptions>
@@ -74,8 +73,8 @@
 					<RemoveShortcut Command="Edit.QuickFindSymbol" Scope="Global">Shift+Alt+F12</RemoveShortcut>
 					<RemoveShortcut Command="Debug.GoToPreviousCallorIntelliTraceEvent" Scope="Global">Ctrl+Shift+F11</RemoveShortcut>
 					<RemoveShortcut Command="Debug.LocationToolbar.ToggleCurrentThreadFlaggedState" Scope="Global">Ctrl+8</RemoveShortcut>
-					<RemoveShortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Global">Alt+\</RemoveShortcut>
-					<RemoveShortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+\</RemoveShortcut>
+					<RemoveShortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Global">Alt+[</RemoveShortcut>
+					<RemoveShortcut Command="ReSharper.ReSharper_GotoFileMember" Scope="Text Editor">Alt+[</RemoveShortcut>
 					<RemoveShortcut Command="Tools.ForceGC" Scope="Global">Ctrl+Shift+Alt+F12, Ctrl+Shift+Alt+F12</RemoveShortcut>
 					<RemoveShortcut Command="Debug.StepIntoSpecific" Scope="Global">Shift+Alt+F11</RemoveShortcut>
 					<RemoveShortcut Command="View.PopBrowseContext" Scope="Global">Ctrl+Shift+8</RemoveShortcut>
@@ -163,6 +162,7 @@
 					<RemoveShortcut Command="ReSharper.ReSharper_CleanupCode" Scope="Global">Ctrl+Q, Ctrl+C</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper_SilentCleanupCode" Scope="Global">Ctrl+Q, Ctrl+F</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper_SilentCleanupCode" Scope="Global">Ctrl+Q, F</RemoveShortcut>
+					<RemoveShortcut Command="ReSharper.ReSharper_DuplicateText" Scope="Text Editor">Ctrl+D</RemoveShortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="Global">Ctrl+Alt+PgUp</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoPreviousOccurence" Scope="Text Editor">Ctrl+Alt+PgUp</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoNextOccurence" Scope="Global">Ctrl+Alt+PgDn</Shortcut>
@@ -195,8 +195,8 @@
 					<Shortcut Command="ReSharper.ReSharper_GotoInheritors" Scope="Text Editor">Alt+End</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="Global">Ctrl+Shift+F11</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoTypeDeclaration" Scope="Text Editor">Ctrl+Shift+F11</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Global">Alt+\</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Text Editor">Alt+\</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Global">Alt+[</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_NavigateTo" Scope="Text Editor">Alt+[</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Global">Ctrl+Alt+F7</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_GotoRelatedFiles" Scope="Text Editor">Ctrl+Alt+F7</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_FindUsagesAdvanced" Scope="Global">Ctrl+Shift+Alt+F12</Shortcut>
@@ -207,8 +207,8 @@
 					<Shortcut Command="ReSharper.ReSharper_TypeHierarchy_Browse" Scope="Text Editor">Ctrl+Q, H</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_ExploreStackTrace" Scope="Text Editor">Ctrl+Q, Ctrl+T</Shortcut>
 					<Shortcut Command="ReSharper.ReSharper_ExploreStackTrace" Scope="Text Editor">Ctrl+Q, T</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Global">Ctrl+\</Shortcut>
-					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Text Editor">Ctrl+\</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Global">Ctrl+[</Shortcut>
+					<Shortcut Command="ReSharper.ReSharper_Bookmarks_BookmarksMenu" Scope="Text Editor">Ctrl+[</Shortcut>
 					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="Global">Ctrl+Shift+0</Shortcut>
 					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark0" Scope="Text Editor">Ctrl+Shift+0</Shortcut>
 					<Shortcut Command="ReSharper_Bookmarks_ToggleBookmark1" Scope="Global">Ctrl+Shift+1</Shortcut>
@@ -374,7 +374,10 @@
 					<Shortcut Command="Edit.EmacsLineEnd" Scope="Global">Ctrl+E</Shortcut>
 					<Shortcut Command="Edit.CompleteWord" Scope="Global">Shift+Space</Shortcut>
 					<Shortcut Command="Edit.Delete" Scope="Global">Ctrl+D</Shortcut>
-					<RemoveShortcut Command="ReSharper.ReSharper_DuplicateText" Scope="Text Editor">Ctrl+D</RemoveShortcut>
+					<RemoveShortcut Command="Edit.FindinFiles" Scope="Global">Ctrl+Shift+F</RemoveShortcut>
+					<Shortcut Command="Edit.FormatDocument" Scope="Global">Ctrl+Shift+F</Shortcut>
+					<RemoveShortcut Command="Edit.DocumentEnd" Scope="Windows Forms Designer">End</RemoveShortcut>
+					<RemoveShortcut Command="Edit.DocumentStart" Scope="Windows Forms Designer">Home</RemoveShortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>
